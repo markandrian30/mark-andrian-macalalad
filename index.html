@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mark Andrian Macalalad — Kibo, a voice assistant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#f4f1ea;--card:#fffdf8;--ink:#1c1a15;--muted:#6d675b;--line:#e3ddce;--accent:#0f7a52;--accent-ink:#0a5a3d}
+body{font-family:"IBM Plex Sans",system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+header{padding:52px 0 30px}
+.eyebrow{font-family:"IBM Plex Mono",monospace;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--accent-ink)}
+h1{font-family:"Fraunces",serif;font-weight:600;font-size:clamp(2.6rem,8vw,4.6rem);line-height:1.02;letter-spacing:-.02em;margin:.35em 0 .25em}
+.lede{max-width:60ch;font-size:1.08rem;color:var(--muted)}
+nav{display:flex;gap:26px;margin-top:26px;font-family:"IBM Plex Mono",monospace;font-size:.82rem}
+nav a{color:var(--ink);text-decoration:none;border-bottom:2px solid transparent;padding-bottom:2px;transition:border-color .2s}
+nav a:hover{border-color:var(--accent)}
+section{padding:46px 0;border-top:1px solid var(--line)}
+h2{font-family:"Fraunces",serif;font-weight:600;font-size:clamp(1.7rem,4.5vw,2.4rem);letter-spacing:-.01em;margin-bottom:14px}
+p{margin-bottom:14px;max-width:66ch}
+ul{list-style:none;display:grid;gap:14px}
+li{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;box-shadow:0 1px 2px rgba(0,0,0,.03)}
+li h3{font-family:"Fraunces",serif;font-size:1.18rem;margin-bottom:6px}
+li p{margin:0;font-size:.95rem;color:var(--muted)}
+footer{padding:34px 0 56px;font-family:"IBM Plex Mono",monospace;font-size:.82rem;color:var(--muted)}
+footer a{color:var(--accent-ink)}
+</style>
+<style id="kibo-fit">img{object-fit:contain !important;object-position:center !important}</style></head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="eyebrow">University of the Philippines Diliman · AI 231</p>
+    <h1>Mark Andrian Macalalad</h1>
+    <p class="lede">I study at the University of the Philippines Diliman and take AI 231. My project is Kibo, a voice assistant that runs on a Raspberry Pi 5 and uses a Qwen language model on the university's DGX servers.</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#kibo">Kibo</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>My name is Mark Andrian Macalalad. I study at the University of the Philippines Diliman, where I take AI 231.</p>
+    <p>For the course, I'm building Kibo — a voice assistant that runs on a Raspberry Pi 5 and uses a Qwen language model on the university's DGX servers. Kibo talks in real time and can do a wide range of things, from building web pages and apps to running machine-learning jobs.</p>
+  </section>
+
+  <section id="kibo">
+    <h2>Kibo</h2>
+    <p>Kibo is a voice assistant that runs on a Raspberry Pi 5 and uses a Qwen language model on the university's DGX servers. It talks in real time, so you can speak to it and hear an answer back without waiting. Here is what it can do.</p>
+    <ul>
+      <li>
+        <h3>Real-time conversation</h3>
+        <p>Kibo talks in real time, so a conversation feels natural rather than a slow back-and-forth. You can ask it things and hear an answer right away.</p>
+      </li>
+      <li>
+        <h3>Web pages and apps</h3>
+        <p>Kibo builds web pages and apps on request. It can put together the code and structure for a new page or application.</p>
+      </li>
+      <li>
+        <h3>Music on Spotify</h3>
+        <p>Kibo plays music on Spotify. You can ask it to start a song or a playlist and it will play it for you.</p>
+      </li>
+      <li>
+        <h3>Flights and movie showtimes</h3>
+        <p>Kibo checks flights and movie showtimes. Ask it about a flight or a film and it will look up the details.</p>
+      </li>
+      <li>
+        <h3>Chemistry questions</h3>
+        <p>Kibo answers chemistry questions using PubChem. It pulls information from that database to help with chemistry.</p>
+      </li>
+      <li>
+        <h3>Machine-learning jobs</h3>
+        <p>Kibo runs machine-learning jobs on the DGX. It can kick off ML workloads on the university's DGX servers.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Find my work on GitHub.</p>
+    <p><a href="https://github.com/markandrian30">github.com/markandrian30</a></p>
+  </section>
+
+  <footer>
+    <p>Mark Andrian Macalalad · University of the Philippines Diliman · AI 231</p>
+  </footer>
+</div>
+</body>
+</html>
